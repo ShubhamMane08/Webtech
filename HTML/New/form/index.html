@@ -9,18 +9,50 @@
     <form action="example.com" method="GET">
         Username: <input type="text" name="username" id="input1" placeholder="Enter Username"><br> <br>
         Password: <input type="password" name="password" id="input2"><br> <br>
-
+        <input type="color" id="input3"><br><br>
+        <input type="button" value="submit"><br><br>
+        <input type="date"><br><br>
+        <input type="datetime"><br><br>
+        <input type="datetime-local"><br><br>
+        <input type="email"><br><br>
+        <input type="file"><br><br>
+        <input type="hidden" value="Hello it Me" id="input4"><br><br>
+        <input id="html" type="checkbox">
+        <label for="html">html</label>
+        <input id="css" type="checkbox">
+        <label for="css">css</label>
+        <input id="js" type="checkbox">
+        <label for="js">js</label>
+       
+        <input type="month"><br><br>
+        <input type="number" min="5" max="10"><br><br>
+        <input type="search"><br><br>
+        <input type="tel"><br><br><input type="url"><br><br><input type="week">
+        <input type="range" min="5" max="20" id="5"><br>
         <button>Submit</button>
     </form>
   <script>
     let input1=document.querySelector("#input1");
     let input2=document.querySelector("#input2");
+    let input3=document.querySelector("#input3");
+    let input4=document.querySelector("#input4");
+
+    input4.addEventListener('input',(e)=>
+    {
+        console.log(e.target.value)
+
+    })
     input1.addEventListener('input',(e)=>{
         console.log(e.target.value);
     })
     input2.addEventListener('input',(e)=>{
         console.log(e.target.value);
     })
+    input3.addEventListener('input',(e)=>{
+        console.log(e.target.value);
+    })
+ 
+
 
   </script>
 </body>
