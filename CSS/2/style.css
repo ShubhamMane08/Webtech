@@ -20,7 +20,7 @@ div
 {
     background: green;
 }
-p,
+#p1,
 section,
 div{
     background: purple;
@@ -29,4 +29,6 @@ div{
 .fs
 {
     padding: 20px;
+    background: lavender !important;
+    
 }
