@@ -1,0 +1,28 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: yellow;
+
+}
+div
+{
+    background: red;
+
+}
+#a
+{
+    background: blue;
+}
+.b
+{
+    background: green;
+}
+p,
+section,
+div{
+    background: purple;
+}
+
