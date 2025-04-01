@@ -1,12 +1,20 @@
 p::first-letter{
-    font-size: 70px;
+    font-size: 50px;
 }
 p::first-line
 {
-    background: red;
+    background:violet;
 }
 p::selection
 {
     background:yellow;
+    color:red;
+}
+p::before{
+    content: "Some Text";
+    color:red;
+}
+p::after{
+    content: "Some Text";
     color: red;
 }
