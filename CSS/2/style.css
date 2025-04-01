@@ -4,12 +4,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    background: yellow;
+    background: yellow ;
 
 }
 div
 {
-    background: red;
+    background: red!important;
 
 }
 #a
@@ -29,6 +29,6 @@ div{
 .fs
 {
     padding: 20px;
-    background: lavender !important;
+    /* background: lavender ; */
     
 }
