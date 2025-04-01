@@ -1,0 +1,9 @@
+h1+p
+{
+    background: red;
+
+}
+div+div~section
+{
+    background: blue;
+}
