@@ -17,4 +17,20 @@ p::before{
 p::after{
     content: "Some Text";
     color: red;
+    font-size: 25px;
+}
+li::marker{
+    content: "🍎";
+}
+li+li::marker{
+    content: "🥭";
+}
+li+li+li::marker{
+    content:"🍌"
+}
+li+li+li+li::marker{
+    content: "🍒";
+}
+li+li+li+li+li::marker{
+    content: "🍉";
 }
