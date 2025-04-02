@@ -10,3 +10,28 @@ a:visited
 {
     color:black;
 }
+
+input:focus
+{
+    background: orange;
+    border: none;
+    outline: none;
+    color: white;
+
+}
+button:hover
+{
+    background: red;
+}
+
+p{
+    width: 100px;
+    background: gainsboro;
+    color: grey;
+    padding: 10px;
+    font-size: 10px;
+    display: none;
+}
+button:hover~p{
+    display: block;
+}
