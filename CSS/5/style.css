@@ -41,3 +41,9 @@ div{
 div:hover>p{
     display: block;
 }
+input:required
+{
+    background: grey;
+}
+
+
