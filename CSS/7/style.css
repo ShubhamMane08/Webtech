@@ -1,0 +1,19 @@
+/* div:first-child
+{
+    background: red;
+} */
+#div>section:nth-child(3)
+{
+    background: rgb(206, 97, 97);
+}
+td{
+    padding: 10px;
+}
+tr:nth-child(even)
+{
+    background: lightblue;
+}
+tr:nth-child(odd)
+{
+    background: lightcyan;
+}
