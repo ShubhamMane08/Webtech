@@ -35,3 +35,9 @@ p{
 button:hover~p{
     display: block;
 }
+div{
+    background: palegoldenrod;
+}
+div:hover>p{
+    display: block;
+}
