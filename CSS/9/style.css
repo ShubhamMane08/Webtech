@@ -7,9 +7,8 @@
 }
 div
 {
-    background: red;
     width: 50vw;
-    height: 20%;
+    height: 30vh;
     background: lightseagreen;
     font-size: 0.5em;
 }
@@ -27,7 +26,10 @@ ul
 main
 {
     width: 500px;
-    height: 500px;
+    height: 300px;
     font-size: 32px;
     background: red;
+}
+section>p{
+    font-size: 2rem;;
 }
