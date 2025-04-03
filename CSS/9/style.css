@@ -9,8 +9,9 @@ div
 {
     background: red;
     width: 50vw;
-    height: 30vh;
+    height: 20%;
     background: lightseagreen;
+    font-size: 0.5em;
 }
 p{
     background: green;
@@ -27,5 +28,6 @@ main
 {
     width: 500px;
     height: 500px;
+    font-size: 32px;
     background: red;
 }
