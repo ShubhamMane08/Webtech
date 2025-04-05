@@ -1,27 +1,66 @@
 *{
     /* margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif; */
+    box-sizing: border-box;*/
+    font-family: sans-serif; 
     
 }
 body{
     width: 40vw;
     height: 40vh;
-    /* border: 5px solid; */
+   
 }
-fieldset
-{
+section{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
     width: 80vw;
-    height: 90vh;
+    height: 50vh;
 }
-.bgImg div
+section>div{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main+div
 {
-    width: 80vh;
-    height: 80vh;
+    width: 150vh;
+    height: 60vh;
     border-radius: 50%;
-    background-image: linear-gradient(to bottom right,red,yellow);
-    /* background-image: url(./cpe.png); */
+    background-image: url(./cpe.png);
     background-position: center;
     background-repeat: no-repeat;
+    color: black;
+}
+main+div+div{
+    width: 150vh;
+    height: 60vh;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom right,red,yellow);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+main+div+div+div{
+    width: 150vh;
+    height: 60vh;
+    border-radius: 50%;
+    background-image: conic-gradient(red,yellow,black,red);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+main+div+div+div+div{
+    width: 150vh;
+    height: 60vh;
+    border-radius: 50%;
+    background-image: repeating-radial-gradient(blue 3%,skyblue 10%);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+
 }
