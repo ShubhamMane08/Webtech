@@ -1,0 +1,27 @@
+*{
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif; */
+    
+}
+body{
+    width: 40vw;
+    height: 40vh;
+    /* border: 5px solid; */
+}
+fieldset
+{
+    width: 80vw;
+    height: 90vh;
+}
+.bgImg div
+{
+    width: 80vh;
+    height: 80vh;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom right,red,yellow);
+    /* background-image: url(./cpe.png); */
+    background-position: center;
+    background-repeat: no-repeat;
+}
