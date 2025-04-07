@@ -38,6 +38,8 @@ main>div
 {
 
     
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     background: lightcyan;
     width: 80%;
     height: 20%;
