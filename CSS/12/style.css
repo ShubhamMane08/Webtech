@@ -6,13 +6,18 @@ nav{
 }
 .logo
 {
-    
+    height: 100%;
     width: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: red;
 }
 div:not(.logo)
 {
-    display: flex;align-items: center;
+    color: white;
+    display: flex;
+    width: 85%;
+    align-items: center;
+    justify-content: space-evenly;
 }
