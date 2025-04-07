@@ -41,7 +41,7 @@ main>div
     flex-wrap: wrap;
     justify-content: space-evenly;
     background: lightcyan;
-    width: 80%;
-    height: 20%;
+    min-width: 100%;
+    height: 200px;
     border: 5px solid black;
 }
