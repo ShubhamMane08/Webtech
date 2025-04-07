@@ -1,0 +1,18 @@
+nav{
+    height: 7vh;
+    background: orange;
+    display: flex;
+    align-items: center;
+}
+.logo
+{
+    
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div:not(.logo)
+{
+    display: flex;align-items: center;
+}
