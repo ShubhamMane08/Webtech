@@ -27,14 +27,17 @@ main
     height: 500px;
     background: lightcoral;
     display: flex;
+    justify-content: center;
+    align-items: center;
     overflow: auto;
-    flex-direction: column;
+    /* flex-direction: row; */
     flex-wrap: wrap;
+
 }
 main>div
 {
     background: lightcyan;
-    min-width: 100%;
-    min-height: 80%;
+    width: 80%;
+    height: 20px;
     border: 5px solid black;
 }
