@@ -23,7 +23,7 @@ div:not(.logo)
 }
 main
 {
-    width: 1000px;
+    width: 100%;
     height: 500px;
     background: lightcoral;
     display: flex;
