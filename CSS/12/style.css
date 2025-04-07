@@ -31,16 +31,16 @@ main
     align-items: center;
     overflow: auto;
     flex-direction: row;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 
 }
 main>div
 {
     border: 5px solid white;
     background: lightcyan;
-    width: 30%;
+    min-width: 30%;
     height: 200px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-evenly;
     
 }
