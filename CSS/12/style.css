@@ -29,6 +29,7 @@ main
     display: flex;
     overflow: auto;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 main>div
 {
