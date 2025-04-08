@@ -12,8 +12,14 @@ section>h1
     text-transform: uppercase;
     color: black;
     text-shadow: -3px -3px 3px grey;
+    text-decoration: underline double 2px grey ;
+    text-decoration-style: wavy;
+
 }
 section > p 
 {
     text-indent: 60px;
+}
+section > a{
+    text-decoration-line:none ;
 }
