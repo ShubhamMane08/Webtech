@@ -20,7 +20,7 @@ div
 {
     width: 100px;
     height: 100px;
-    border-width: 10px;
-    border-style:dashed ;
-    border-color: lightsalmon;
+    border-width: 10px ;
+    border-style:dashed solid dotted groove ;
+    border-color: lightsalmon lightcoral lightseagreen lightslategray;
 }
