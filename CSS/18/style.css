@@ -1,0 +1,37 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main
+{
+    height: 500px;
+    width: 500px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+section
+{
+    height: 300px;
+    width: 300px;
+    background: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div
+{
+    height: 100px;
+    width: 100px;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
