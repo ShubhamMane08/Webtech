@@ -1,0 +1,22 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+div
+{
+    width: 20px;
+    height: 120px;
+    background: lightsalmon;
+    position: fixed;
+    top: 20%;
+    border-radius: 10%;
+    
+
+}
+p
+{
+    font-size: 25px;
+}
