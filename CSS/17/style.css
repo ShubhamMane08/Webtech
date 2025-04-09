@@ -7,7 +7,7 @@
 
 div
 {
-    width: 20px;
+    width: 120px;
     height: 120px;
     background: lightsalmon;
     position: fixed;
@@ -19,4 +19,10 @@ div
 p
 {
     font-size: 25px;
+}
+.mouse
+{
+    font-size: 100px;
+    top: 0px;
+    position: sticky;
 }
