@@ -27,6 +27,8 @@ div
     width: 200px;
     height: 200px;
     border: 5px solid;
+    border-width: 10px 20px 30px 40px;
+    border-color: black grey lightsalmon lightcoral;
     padding: 30px 20px 50px 70px;
     margin: 7px;
 }
