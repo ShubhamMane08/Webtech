@@ -24,5 +24,6 @@ div
     border-width: 10px ;
     border-style:dashed solid dotted groove ;
     border-color: lightsalmon lightcoral lightseagreen lightslategray;
-    border-radius: 50%;
+    border-radius: 0% 50% 50% 50%;
+    transform: rotate(45deg);
 }
