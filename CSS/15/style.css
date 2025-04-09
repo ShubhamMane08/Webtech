@@ -1,0 +1,32 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+body
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+main{
+    width: 500px;
+    height: 500px;
+    background: orange;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 35px;
+}
+div
+{
+    width: 200px;
+    height: 200px;
+    border: 5px solid;
+    padding: 30px 20px 50px 70px;
+    margin: 7px;
+}
