@@ -35,4 +35,5 @@ div
     border-color: black grey lightsalmon lightcoral;
     padding: 30px 20px 50px 70px;
     margin: 7px;
+    border-radius: 150px;
 }
