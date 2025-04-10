@@ -14,8 +14,21 @@ body
 
 div
 {
-    height: 500px;
-    width: 100px;
+    height: 300px;
+    width: 300px;
     background: lightcoral;
+    
+    animation-name: abc;
+    animation-duration: 1s;
+
+    @keyframes abc {
+
+        div:hover
+        {
+            transform: rotate(180deg);
+
+        }
+        
+    }
 
 }
