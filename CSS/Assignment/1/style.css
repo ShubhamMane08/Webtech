@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    padding: 10px;
+}
+#assign01>p{
+    color: red;
+}
+#assign02>#special{
+    font-size: 20px;
+}
+#assign03>.highlight{
+    background-color: skyblue;
+}
+#assign04>p , #assign04>div , #assign04>span{
+    color: blue;
+}
+#assign05>*{
+border: solid 1px blue ;
+}
+#assign06>div p{
+    background-color: red;
+}
+#assign07>div>p{
+    background-color: blue;
+    color: white;
+}
+#assign08>h1+p{
+    background-color: purple;
+    color: white;
+}
+#assign09>h2~p{
+    background-color: grey;
+    color: white;
+}
+#assign10>p::first-letter{
+    font-weight: bold;
+    font-size: 20px;
+}
+#assign11>p::first-line{
+    color: red;
+}
+#assign12>h1::before{
+    content: "➡️";
+}
+#assign13>h1::after{
+    content: "⬅️";
+}
+#assign14>ul{
+    margin-left: 40px;
+}
+#assign14>ul>li::marker{
+    color:red;
+}
+#assign15>p::selection{
+    background-color: green;
+    color: white;
+}
+#assign16>.container p{
+    color: red;
+}
+#assign17>ul ul li{
+    background-color: blue;
+    color: white;
+}
+#assign18 li:nth-child(odd){
+    background-color: red;
+    color: white;
+}
+#assign19 div p:nth-child(even)
+{
+    color: red;
+}
+#assign20>ul , #assign21>ul{
+    margin-left: 40px;
+}
+#assign20 li:last-child, #assign21 li:first-child{
+    background-color: lightblue;
+}
+#assign23>.text.important{
+    background-color: blue;
+    color: white;
+}
+#assign22>div>p{
+    color: red;
+}
+#assign24 #unique.special{
+    background-color: red;
+    color: white;
+}
+#assign25>a{
+  color: black;
+}
+#assign25>a:hover{
+    background-color: green;
+    color: white;
+    padding: 2px;
+}
+#assign25>a:active{
+    background-color: white;
+    color: green;
+    padding: 2px;
+}
+#assign25>a:visited{
+    color: crimson;
+}
+#assign26>button:hover{
+    background-color: red;
+    color: white;
+    border: none;
+}
+#assign27 tr:nth-child(even){
+    background-color: green;
+    color: wheat;
+}
+#assign28>input[type = "password"]{
+    background-color: blue;
+    color: white;
+}
+#assign29 #box p{
+    background-color: blue;
+    color: white;
+}
+#assign30>input:checked{
+    outline: 5px solid black;
+    outline-style: dashed;
+    margin: 10px;
+}
