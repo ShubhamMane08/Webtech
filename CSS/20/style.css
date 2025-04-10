@@ -14,5 +14,8 @@ body
 
 div
 {
-    
+    height: 500px;
+    width: 100px;
+    background: lightcoral;
+
 }
