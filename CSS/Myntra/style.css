@@ -9,7 +9,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 8.5vh;
     background: gainsboro;
-    border: 1px solid ;
+    border-bottom: 1px solid ;
     box-shadow: 0px 3px 2px black;
 }
