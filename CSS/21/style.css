@@ -20,7 +20,7 @@ div
     font-size: 100px;
     /* border-radius: 50%; */
     animation-name: bounce;
-    animation-duration: 1s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
     animation-direction: alternate;
@@ -28,11 +28,15 @@ div
     
 }
 @keyframes bounce{
-    to{
-        
+    50%{
+
         transform: translate(0px,-400px) rotate(360deg);
-        border-radius: 50%; 
        
+    }
+    100%{
+
+        transform: translate(0px,0px) rotate(520deg);
+        
     }
 
 }
