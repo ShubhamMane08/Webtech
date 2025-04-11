@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: Roboto;
 }
 nav{
     display: flex;
@@ -13,4 +13,8 @@ nav{
     background: gainsboro;
     border-bottom: 1px solid ;
     box-shadow: 0px 3px 2px black;
+}
+nav main+p{
+    display: flex;
+    justify-content: space-between;
 }
