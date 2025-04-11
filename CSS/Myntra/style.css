@@ -21,3 +21,9 @@ nav main{
     align-items: center;
     
 }
+.mainbody
+{
+    width: 70%;
+    border: 5px solid;
+
+}
