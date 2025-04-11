@@ -1,0 +1,100 @@
+*
+{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+body
+{
+    height: 100vh;display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+.box1
+{
+    width: 300px;
+    height: 150px;
+    background: lightsalmon;
+    border-radius: 150px 150px 0px 0px;
+    animation: box1 0.5s infinite alternate linear ;
+}
+@keyframes box1{
+    to
+    {
+        transform: rotate(-30deg);
+
+    }
+}
+span{
+    width: 100px;
+    position: relative;
+    padding-top: 170px;
+
+
+}
+.box2
+{
+    width: 300px;
+    height: 150px;
+    background: lightsalmon;
+    border-radius: 0px 0px 150px 150px;
+    animation: box2 0.5s infinite alternate linear;
+}
+@keyframes box2{
+    to
+    {
+        transform: rotate(30deg);
+
+    }
+}
+section
+{
+    display: flex;
+}
+section div{
+    font-size: 50px;
+}
+.cherry
+{
+    animation: cherry 1s infinite;
+}
+@keyframes cherry{
+
+    to{
+        z-index: -1;
+        transform: translate(-50vw);
+    }
+}
+.apple
+{
+    animation: apple 2s infinite;
+}
+@keyframes apple{
+
+    to{
+        z-index: -1;
+        transform: translate(-60vw);
+    }
+}
+.wm
+{
+    animation: wm 3s infinite;
+}
+@keyframes wm{
+
+    to{
+        z-index: -1;
+        transform: translate(-70vw);
+    }
+}
+.mango
+{
+    animation: cherry 2s infinite;
+}
+@keyframes mango{
+
+    to{
+        z-index: -1;
+        transform: translate(-500vw);
+    }
+}
