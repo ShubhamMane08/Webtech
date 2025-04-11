@@ -8,6 +8,7 @@ body
 {
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -16,13 +17,63 @@ div
 {
     height: 100px;
     width: 100px;
-    border: 10px solid;
+    border: 10px solid lightblue;
     border-radius: 50%;
-    border-top:10px solid red;
+    border-top:10px solid blue;
     animation-name: abc;
     animation-duration: 1s;
     animation-iteration-count: infinite;
+    animation-timing-function: ease;
 }
+section
+{
+    height: 100px;
+    width: 100px;
+    border: 10px solid lightblue;
+    border-radius: 50%;
+    border-top:10px solid blue;
+    animation-name: abc;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+main
+{
+    height: 100px;
+    width: 100px;
+    border: 10px solid lightblue;
+    border-radius: 50%;
+    border-top:10px solid blue;
+    animation-name: abc;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+article
+{
+    height: 100px;
+    width: 100px;
+    border: 10px solid lightblue;
+    border-radius: 50%;
+    border-top:10px solid blue;
+    animation-name: abc;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+aside
+{
+    height: 100px;
+    width: 100px;
+    border: 10px solid lightblue;
+    border-radius: 50%;
+    border-top:10px solid blue;
+    animation-name: abc;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
 @keyframes abc {
     to
     {
