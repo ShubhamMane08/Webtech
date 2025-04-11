@@ -12,6 +12,15 @@ body
     align-items: center;
     background: black;
 }
+div
+{
+    position: absolute;
+    background: gainsboro;
+    z-index: 99;
+}
+img{
+    z-index: 100;
+}
 .vapour1
 {
     width: 100px;
@@ -26,7 +35,7 @@ body
 @keyframes vapour1{
 
     to{
-        transform: ;
+       
     }
 
 }
