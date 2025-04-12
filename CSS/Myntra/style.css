@@ -46,14 +46,23 @@ nav .category{
 }
 
 .category sup{
-    color: red;
-
-    
+    color: red  
 }
-.mainbody
+.mainBody
 {
+    display: flex;
+    height: 350px;
     width: 70%;
-    border: 5px solid;
+    border: 1px solid;
+}
+.mainBody section
+{
+    
+    height: 350px;
+    min-width: 30%;
+    border: 1px solid;
+
+
 }
 nav .cart{
     width: 50%;
