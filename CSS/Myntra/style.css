@@ -19,6 +19,7 @@ nav{
 nav .logo
 {
     width: 20%;
+   
 }
 .logosymbol
 {
@@ -45,6 +46,7 @@ nav .category{
 
 .category sup{
     color: red;
+
     
 }
 .mainbody
