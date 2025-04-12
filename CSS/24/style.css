@@ -89,12 +89,12 @@ section div{
 }
 .mango
 {
-    animation: cherry 2s infinite;
+    animation: mango 2s infinite;
 }
 @keyframes mango{
 
     to{
         z-index: -1;
-        transform: translate(-500vw);
+        transform: translate(-70vw);
     }
 }
