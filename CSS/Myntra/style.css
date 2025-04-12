@@ -22,13 +22,19 @@ nav main{
     
 }
 nav .category{
-    
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    font-size: 15px;
 }
 .mainbody
 {
     width: 70%;
     border: 5px solid;
+}
+nav .cart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
 }
