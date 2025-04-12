@@ -14,6 +14,10 @@ nav{
     /* border-bottom: 1px solid ; */
     box-shadow: 0px 3px 2px black;
 }
+nav .logo
+{
+    width: 20%;
+}
 nav main{
     height: 10vh;
     display: flex;
@@ -22,6 +26,7 @@ nav main{
     
 }
 nav .category{
+    width: 70%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -34,6 +39,7 @@ nav .category{
     border: 5px solid;
 }
 nav .cart{
+    width: 50%;
     display: flex;
     justify-content: space-around;
     align-items: center;
