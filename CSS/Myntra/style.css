@@ -51,7 +51,7 @@ nav .category{
 .mainBody
 {
     display: flex;
-    height: 350px;
+    height: 300px;
     min-width: 70%;
     border: 1px solid;
     overflow: auto;
@@ -59,7 +59,7 @@ nav .category{
 }
 .mainBody section
 {
-    min-width:70%;
+    min-width:100%;
     /* border: 1px solid; */
     overflow: auto;
 }
