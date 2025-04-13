@@ -58,9 +58,6 @@ nav .category{
 .mainBody section
 {
     min-width: 30%;
-    /* display: flex; */
-    /* justify-content: space-between;
-    align-items: center; */
     border: 1px solid;
 }
 nav .cart{
