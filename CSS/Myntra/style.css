@@ -55,7 +55,13 @@ nav .category{
     width: 70%;
     border: 1px solid;
 }
-
+.mainBody section
+{
+    min-width: 30%;
+    display: flex;
+    justify-content: space-betweens;
+    border: 1px solid;
+}
 nav .cart{
     width: 50%;
     display: flex;
