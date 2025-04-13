@@ -59,9 +59,9 @@ nav .category{
 }
 .mainBody section
 {
-    min-width:100%;
+    min-width:30%;
     /* border: 1px solid; */
-    overflow: auto;
+    /* overflow: auto; */
 }
 nav .cart{
     width: 50%;
