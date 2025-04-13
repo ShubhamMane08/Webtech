@@ -71,3 +71,9 @@ nav .cart{
     font-size: 12px;
  
 }
+.input
+{
+    width: 15px;
+    height: 10px;
+    color: gray;
+}
