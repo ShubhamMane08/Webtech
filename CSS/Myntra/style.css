@@ -57,6 +57,10 @@ nav .category{
     overflow: auto;
     
 }
+img{
+    height:50vh;
+    width: 220vh;
+}
 .mainBody section>img
 {
     min-width:30%;
