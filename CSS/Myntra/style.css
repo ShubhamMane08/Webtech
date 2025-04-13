@@ -52,13 +52,16 @@ nav .category{
 {
     display: flex;
     height: 350px;
-    width: 70%;
+    min-width: 70%;
     border: 1px solid;
+    overflow: auto;
+    
 }
 .mainBody section
 {
-    min-width: 30%;
+    min-width:70%;
     border: 1px solid;
+    overflow: auto;
 }
 nav .cart{
     width: 50%;
