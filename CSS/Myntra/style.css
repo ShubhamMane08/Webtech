@@ -85,5 +85,6 @@ nav .cart{
    font-size: 25px;
    padding-left: 40px;
    padding-top: 80px;
-   color: gray;
+   color: rgba(0, 0, 0, 0.759);
+   font-weight: 600;
 }
