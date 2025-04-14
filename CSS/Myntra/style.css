@@ -89,3 +89,16 @@ nav .cart{
    color: rgba(0, 0, 0, 0.759);
    font-weight: 600;
 }
+.brands
+{
+    display: flex;
+    height: 350px;
+    min-width: 30%;
+    border: 1px solid;
+    overflow: auto;
+}
+.brands section
+{
+    min-width: 30%;
+    border: 1px solid ;
+}
