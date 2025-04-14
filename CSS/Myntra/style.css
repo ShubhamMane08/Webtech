@@ -53,7 +53,7 @@ nav .category{
     display: flex;
     height: 350px;
     min-width: 70%;
-    border: 1px solid;
+   margin-top: 45px;
     overflow: auto;
     
 }
@@ -64,8 +64,7 @@ img{
 .mainBody section>img
 {
     min-width:30%;
-    /* border: 1px solid; */
-    /* overflow: auto; */
+   
 }
 nav .cart{
     width: 50%;
