@@ -39,6 +39,7 @@ nav main{
 nav .category{
     width: 70%;
     display: flex;
+    color: rgba(0, 0, 0, 0.759);
     justify-content: space-around;
     align-items: center;
     font-size: 13px;
@@ -82,7 +83,7 @@ nav .cart{
 }
 .risingstar
 {
-   font-size: 25px;
+   font-size: 28px;
    padding-left: 40px;
    padding-top: 80px;
    color: rgba(0, 0, 0, 0.759);
