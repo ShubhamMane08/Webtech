@@ -138,4 +138,5 @@ nav .cart{
 }
 .cardbox>div{
     border: 5px solid white;
+    background: lightcoral;
 }
