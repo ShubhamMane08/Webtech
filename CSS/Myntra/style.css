@@ -108,3 +108,11 @@ nav .cart{
     height: 331px;
 
 }
+.luxe
+{
+    font-size: 28px;
+    padding-left: 40px;
+    padding-top: 80px;
+    color: rgba(0, 0, 0, 0.759);
+    font-weight: 600;
+}
