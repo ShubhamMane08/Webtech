@@ -139,4 +139,6 @@ nav .cart{
 .cardbox>div{
     border: 5px solid white;
     background: lightcoral;
+    min-width: 300px;
+    height: 200px;
 }
