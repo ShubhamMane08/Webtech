@@ -143,3 +143,9 @@ nav .cart{
     height: 250px;
     justify-content: space-evenly;
 }
+
+footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
