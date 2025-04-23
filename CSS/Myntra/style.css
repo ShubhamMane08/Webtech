@@ -165,4 +165,7 @@ footer>section>#sNav
 footer>section>#sNav>div{
     width: 20%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    
 }
