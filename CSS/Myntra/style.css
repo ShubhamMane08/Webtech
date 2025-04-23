@@ -163,5 +163,6 @@ footer>section>#sNav
     width: 100%;
 }
 footer>section>#sNav>div{
-    
+    width: 20%;
+    height: 100%;
 }
