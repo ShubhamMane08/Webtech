@@ -171,3 +171,8 @@ footer>section>#sNav>div{
     align-items: center;
     row-gap: 10px;
 }
+footer>section>#sNav>div>p,#sNav p,footer>section>div:not(#sNav)>p{
+    font-size: 13px;
+    color: rgb(118, 114, 114);
+    font-weight: normal;
+}
