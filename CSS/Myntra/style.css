@@ -178,5 +178,6 @@ footer>section>#sNav>div>p,#sNav p,footer>section>div:not(#sNav)>p{
 }
 footer>section>#sNav>div>h5{
     padding-bottom: 10px;
+    padding-top: 10px;
 
 }
