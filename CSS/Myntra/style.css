@@ -207,5 +207,7 @@ footer>section>div:not(#sNav) h5{
 
 }
 #last-line>div{
-    
+    display: flex;
+    color: rgb(174, 167, 167);  
+    margin-top: 40px;
 }
