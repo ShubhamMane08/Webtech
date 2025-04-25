@@ -210,4 +210,6 @@ footer>section>div:not(#sNav) h5{
     display: flex;
     color: rgb(174, 167, 167);  
     margin-top: 40px;
+    font-weight: normal;
+    justify-content: space-between;
 }
