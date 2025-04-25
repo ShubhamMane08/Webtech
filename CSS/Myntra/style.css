@@ -202,4 +202,6 @@ footer>section>div:not(#sNav)
 {
     display: block;
 }
-footer>section>div:not(#sNav)
+footer>section>div:not(#sNav) h5{
+    
+}
