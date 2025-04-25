@@ -213,3 +213,7 @@ footer>section>div:not(#sNav) h5{
     font-weight: normal;
     justify-content: space-between;
 }
+footer>section>div:not(#sNav)>p
+{
+    
+}
