@@ -206,7 +206,7 @@ footer>section>div:not(#sNav) h5{
     margin-bottom: 25px;
 
 }
-#last-line{
+#last-line>div{
     display: flex;
     color: rgb(174, 167, 167);  
     margin-top: 40px;
@@ -219,4 +219,8 @@ footer>section>div:not(#sNav)>p
     text-align:unset;
     line-height: 25px;
     line-gap-override: calc(10px);
+}
+#last-line
+{
+    background: rgb(174, 167, 167);
 }
