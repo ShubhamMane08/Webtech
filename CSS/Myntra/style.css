@@ -203,5 +203,6 @@ footer>section>div:not(#sNav)
     display: block;
 }
 footer>section>div:not(#sNav) h5{
-    
+    margin-bottom: 25px;
+
 }
