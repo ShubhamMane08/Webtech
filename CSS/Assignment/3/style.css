@@ -282,7 +282,6 @@ footer>section>div:not(#sNav)>p{
     font-size: 14px;
     text-align: unset;
     line-height: 25px;
-    line-gap-override: calc(10px);
+    line-gap-override: calc(10px)
 
-    
 }
