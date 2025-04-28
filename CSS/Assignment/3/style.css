@@ -265,6 +265,7 @@ footer>section>#sNav>#app~div{
     width: 45px;
     margin-right: 10px;
 }
+
 footer>section>div:not(#sNav){
     display: block;
 }
